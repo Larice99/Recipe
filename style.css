@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+@media (max:694px);
+{
+    .menu{
+        width:auto;
+    }
+
+
+}
+:root {
+    --background-color: rgb(243, 229, 215);
+    --cor-primaria:rgb(95, 87, 78);
+    --cor-secundaria:rgb(48, 46, 44);
+}
+body{
+    margin: 20%;
+    padding: 0;
+    border: 50px;
+    height: 100%;
+    background-color: var(--background-color);
+    display: flex;
+   
+}
+h1{
+   color:rgb(95, 55, 3);
+   text-align:left;
+   font-family: "Young Serif",serif;
+   font-size:2,18rem;
+   font-weight: 600;
+   margin: 15px;
+
+}
+h2{
+    color:rgb(95, 55, 3);
+    text-align:left;
+    font-family: "Young Serif",serif;
+    font-size:0,93rem;
+    font-weight: 500;
+}
+h3{
+    color:rgb(95, 55, 3);
+    text-align:left;
+    font-family: "Young Serif",serif;
+    font-size: 1,56rem;
+    font-weight: 400;
+    margin:15px;
+}
+p{
+    font-family: "Outfit",sans-serif;
+    font-size:1,8rem;
+    color: rgb(95, 87, 78);
+    padding: 5px;
+    margin:15px;
+}
+ul{
+    font-family: "Young Serif",serif;
+    font-size:0,93rempx;
+    color: rgb(95, 87, 78);
+}
+ul li::marker{
+    color:rgb(95, 55, 3);
+}
+li{
+    padding:5px;
+    font-family: "Outfit",sans-serif;
+    font-size: 0,93rem;
+}
+ol{
+    font-family: "Outfit",sans-serif;
+    color: rgb(95, 87, 78);
+}
+ol li::marker {
+    color:rgb(95, 55, 3);
+    font-family: "Outfit",sans-serif;
+    font-weight:700;
+    padding: 8px;
+}
+.menu{
+    background-color: white;
+    max-width: 1440px;
+    margin:0 auto;
+    padding:60px 20px;
+    width: 95%; 
+    border-radius: 1%;
+   
+.cookie_photo{
+    max-width: 80%;
+    height: auto;
+    display: block;
+    margin:0 auto;
+    border-radius: 2%;
+}
+
+.temp__preparo{
+    color:rgb(48, 46, 44);
+    font-family: "Young Serif",serif;
+    max-width: 1440px;
+    background-color: rgb(243, 229, 215);
+    padding: 25px;
+    border-radius: 2%;
+    align-items:left;
+    margin: 15px;
+}
+.ingre{
+    padding-bottom: 15px;
+}
+.instru{
+    font-family: "Young Serif",serif;
+    padding-top:15px;
+    padding-bottom: 15px;
+    border-top: solid;
+    border-bottom: solid;
+    border-color: rgba(95, 87, 78, 0.137);
+    border-width: 2px;
+}
+.tabela{
+    width: 100%;
+    border-collapse: collapse;
+}
+.tabela th{
+    text-align: left;
+    font-family: "Outfit",sans-serif;
+    font-size: medium;
+    color: rgb(95, 87, 78);
+    padding: 10px;
+    padding-right: 100px;
+    padding-left: 60px;
+    font-weight: 600;
+    border-bottom: solid;
+    border-color: rgba(95, 87, 78, 0.137);
+    border-width: 2px;
+}
+.tabela td{
+    text-align: left;
+    font-family: "Outfit",sans-serif;
+    font-size: medium;
+    color:rgb(95, 55, 3);
+    font-weight: 600;
+    border-bottom: solid;
+    border-color: rgba(95, 87, 78, 0.137);
+    border-width: 2px;
+    padding-right: 50px;
+}
