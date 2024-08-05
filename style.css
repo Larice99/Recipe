@@ -1,13 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Outfit:wght@100..900&family=Young+Serif&display=swap');
-
+@media (max:375px);
+{
+    .menu{
+        width:100%;
+    }
 }
 body{
     margin: 20%;
     padding: 0;
     border: 50px;
     height: 100%;
-    background-color: var(--background-color);
+    background-color: rgb(243, 229, 215);
     display: flex;
    
 }
@@ -130,12 +134,4 @@ ol li::marker {
     border-color: rgba(95, 87, 78, 0.137);
     border-width: 2px;
     padding-right: 50px;
-}
-@media (max-width: 560px){
-    body{
-        background-color: white;
-    }
-    .menu{
-        width:auto;
-    
 }
