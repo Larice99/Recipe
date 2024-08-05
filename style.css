@@ -131,14 +131,11 @@ ol li::marker {
     border-width: 2px;
     padding-right: 50px;
 }
-@media (max:600px){
+@media (max-width: 560px){
     body{
         background-color: white;
     }
     .menu{
-        padding: 10px;
-    }
-    header,footer {
-        display: none;
-    }
+        width:auto;
+    
 }
