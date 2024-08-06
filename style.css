@@ -6,8 +6,11 @@
         width:100%;
     }
 }
+
+main{
+    margin:80px;
+}
 body{
-    margin: 20%;
     padding: 0;
     border: 50px;
     height: 100%;
@@ -72,17 +75,17 @@ ol li::marker {
 .menu{
     background-color: white;
     max-width: 1440px;
-    margin:0 auto;
     padding:60px 20px;
     width: 95%; 
     border-radius: 1%;
+    box-sizing: :border-box;
    
 .cookie_photo{
-    max-width: 80%;
+    max-width: 95%;
     height: auto;
     display: block;
     margin:0 auto;
-    border-radius: 2%;
+    border-radius: 14px;
 }
 
 .temp__preparo{
